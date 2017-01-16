@@ -15,6 +15,17 @@ using ReadWriteCsv;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
+/*
+ * Yet Another Tcp Logger - Microsoft .NET 
+ * 
+ * This program open a Tcp Socket connection and log every byte received on
+ * this connection. On the open connection, you could sent to the open socket 
+ * Tcp Message as well. 
+ * 
+ * Support for the following data format (receveing and sending):
+ * Binary, Hex, ASCII;
+ */
+
 namespace TcpLogger
 {
     public partial class TCPLoggerMain : Form
